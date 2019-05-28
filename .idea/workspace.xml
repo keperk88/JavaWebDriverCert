@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f00fe88-88de-4293-b648-1d90549a592c" name="Default Changelist" comment="" />
+    <list default="true" id="6f00fe88-88de-4293-b648-1d90549a592c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenge2/challenge2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/challenge1/challenge1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="442">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
@@ -44,11 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/xml/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenge2/challenge2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,13 +80,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/challenge1/challenge1.java" />
         <option value="$PROJECT_DIR$/src/test/xml/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/xml/testsuite.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/challenge1/challenge1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenge2/challenge2.java" />
       </list>
     </option>
   </component>
@@ -95,6 +117,7 @@
     <option name="width" value="840" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,6 +152,21 @@
               <item name="keithautocert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keithautocert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keithautocert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keithautocert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keithautocert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -139,6 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -160,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml">
+  <component name="RunManager" selected="TestNG.challenge2">
     <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="keithautocert" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/xml/testng.xml" />
@@ -216,11 +255,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="challenge2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keithautocert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="challenge2" />
+      <option name="MAIN_CLASS_NAME" value="challenge2.challenge2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.challenge2" />
+        <item itemvalue="TestNG.challenge1" />
         <item itemvalue="TestNG./Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" />
         <item itemvalue="TestNG./Users/keith/dev/work/stg/keithautocert/src/test/xml/testsuite.yaml" />
-        <item itemvalue="TestNG.challenge1" />
         <item itemvalue="TestNG.challenge1.goToGoogle" />
       </list>
     </recent_temporary>
@@ -235,44 +292,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559071190663</updated>
-      <workItem from="1559071191902" duration="3330000" />
+      <workItem from="1559071191902" duration="6238000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="challenge1_goToGoogle - 2019.05.28 at 13h 47m 07s.xml">
-      <configuration name="challenge1.goToGoogle" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 19m 12s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="challenge1_goToGoogle - 2019.05.28 at 13h 47m 34s.xml">
-      <configuration name="challenge1.goToGoogle" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 22m 29s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="challenge1 - 2019.05.28 at 13h 48m 24s.xml">
-      <configuration name="challenge1" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 24m 43s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 13h 48m 47s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 26m 42s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 13h 49m 34s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 27m 01s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 13h 49m 41s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 28m 08s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 13h 51m 50s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 32m 41s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 13h 56m 15s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 36m 31s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testsuite_yaml - 2019.05.28 at 14h 20m 49s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testsuite.yaml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 37m 38s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_keith_dev_work_stg_keithautocert_src_test_xml_testng_xml - 2019.05.28 at 14h 21m 36s.xml">
-      <configuration name="/Users/keith/dev/work/stg/keithautocert/src/test/xml/testng.xml" configurationId="TestNG" />
+    <history-entry file="challenge2 - 2019.05.28 at 16h 38m 23s.xml">
+      <configuration name="challenge2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3330000" />
+    <option name="totallyTimeSpent" value="6238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="0" width="840" height="1050" extended-state="0" />
@@ -283,7 +340,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15037593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24812031" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32985386" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -293,7 +350,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66805845" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28601253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,18 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/challenge1/challenge1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xml/testsuite.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -343,6 +388,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenge1/challenge1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenge2/challenge2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
