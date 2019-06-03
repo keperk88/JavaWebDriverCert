@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Certification" verbose="1" >
+    <test name="challenge3">
+        <classes>
+            <class name="challenge3.challenge3"/>
+        </classes>
+    </test>
+</suite>

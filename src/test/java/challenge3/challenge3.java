@@ -1,4 +1,4 @@
-package challenge2;
+package challenge3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -8,7 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class challenge2 {
+import java.util.List;
+
+public class challenge3 {
     public WebDriver driver;
 
     @BeforeSuite
@@ -46,16 +48,11 @@ public class challenge2 {
     }
 
     @Test()
-    public void searchForExotics() throws Exception{
-        WebElement searchBar = driver.findElement(By.id("input-search"));
-        Assert.assertTrue(searchBar.isDisplayed());
-        searchBar.sendKeys("exotics");
-        searchBar.sendKeys(Keys.RETURN);
-    }
-
-    @Test()
-    public void verifyPorscheIsPresent() throws Exception{
-        Thread.sleep(2000);
-        Assert.assertTrue(driver.getPageSource().contains("PORSCHE"));
+    public void printPopularItems() throws Exception{
+        List<WebElement> popularItems = driver.findElements(By.xpath("//*[@id=\"tabTrending\"]/div[1]/div[2]/div/ul/li/a"));
+        Assert.assertFalse(popularItems.isEmpty());
+        for (WebElement e : popularItems) {
+            System.out.println(e.getText() + " - " + e.getAttribute("href"));
+        }
     }
 }
