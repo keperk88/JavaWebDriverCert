@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f00fe88-88de-4293-b648-1d90549a592c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/challenge3/challenge3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/xml/challenge3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/challenge4/challenge4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/xml/challenge4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge2/challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge2/challenge2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/challenge2/challenge2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/challenge2/challenge2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenge3/challenge3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge3/challenge3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +21,7 @@
     </execution>
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -52,19 +50,37 @@
         <entry file="file://$PROJECT_DIR$/src/test/xml/challenge3.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="18" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenge3/challenge3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/challenge3/challenge3.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/challenge4/challenge4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="-109">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xml/challenge4.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -100,7 +116,9 @@
         <option value="$PROJECT_DIR$/src/test/xml/challenge2.xml" />
         <option value="$PROJECT_DIR$/src/test/xml/challenge3.xml" />
         <option value="$PROJECT_DIR$/src/test/java/challenge2/challenge2.java" />
+        <option value="$PROJECT_DIR$/src/test/xml/challenge4.xml" />
         <option value="$PROJECT_DIR$/src/test/java/challenge3/challenge3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/challenge4/challenge4.java" />
       </list>
     </option>
   </component>
@@ -172,7 +190,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="challenge3" type="462c0819:PsiDirectoryNode" />
+              <item name="challenge4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="keithautocert" type="b2602c69:ProjectViewProjectNode" />
@@ -303,14 +321,11 @@
       <option name="presentableId" value="Default" />
       <updated>1559071190663</updated>
       <workItem from="1559071191902" duration="10586000" />
-      <workItem from="1559574149736" duration="1760000" />
+      <workItem from="1559574149736" duration="2701000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="challenge3 - 2019.06.03 at 14h 18m 56s.xml">
-      <configuration name="challenge3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="challenge3 - 2019.06.03 at 14h 21m 20s.xml">
       <configuration name="challenge3" configurationId="TestNG" />
     </history-entry>
@@ -338,15 +353,18 @@
     <history-entry file="challenge3 - 2019.06.03 at 14h 34m 15s.xml">
       <configuration name="challenge3" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="challenge3 - 2019.06.03 at 14h 36m 20s.xml">
+      <configuration name="challenge3" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12346000" />
+    <option name="totallyTimeSpent" value="13287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="685" y="-1080" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09105431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09105431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2854251" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2854251" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xml/challenge3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenge2/challenge2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -427,10 +438,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xml/challenge3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xml/challenge4.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/challenge3/challenge3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/challenge4/challenge4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package challenge3;
+package challenge4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import org.testng.annotations.*;
 
 import java.util.List;
 
-public class challenge3 {
+public class challenge4 {
     public WebDriver driver;
 
     @BeforeSuite
